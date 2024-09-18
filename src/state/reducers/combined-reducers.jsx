@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
-import amountReducer from "./amount-reducer";
+import amountReducer from "./amount-reducer.jsx";
 
 const available_reducers = combineReducers({
     amount: amountReducer
