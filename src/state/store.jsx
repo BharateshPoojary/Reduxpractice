@@ -1,5 +1,5 @@
 import { applyMiddleware, legacy_createStore } from "redux";
-import reducers from './reducers/combined-reducers.jsx'
+import reducers from './reducers/combined-reducers'
 import { thunk } from "redux-thunk";
 export const store = legacy_createStore(reducers, {}, applyMiddleware(thunk))
 /**A Redux store is created using the legacy_createStore function.
